@@ -49,12 +49,12 @@ export default function Home() {
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
   return (
     <div className="flex min-h-screen flex-col items-center ">
-      <div className="flex justify-around items-center px-24 mt-12">
+      <div className="flex flex-col md:flex-row sm:gap-4 justify-around items-center px-4 md:px-24 mt-12">
         <img
-          className="w-1/3 rounded-full object-cover"
+          className="w-full md:w-1/3 rounded-full object-cover"
           src="/images/about-banner.png"
         />
-        <div className="flex flex-col w-1/2 gap-4">
+        <div className="flex flex-col w-full md:w-1/2 gap-4 sm:text-center md:text-left sm-items-center sm:justify-center">
           <p className="text-7xl font-bold">Kidoku Akademi</p>
           <p className="text-md opacity-70">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -62,7 +62,7 @@ export default function Home() {
             ad minim veniam
           </p>
           <Link href={"#our-team"}>
-            <button className="mt-4 w-1/3 flex flex-row items-center gap-4  text-black px-10 py-3 rounded-lg text-xl bg-white transition duration-300 hover:text-indigo-600 hover:bg-white mb-6 md:mb-0">
+            <button className="mt-4 w-full md:w-1/3 flex flex-row items-center sm:justify-center gap-4 text-black px-10 py-3 rounded-lg text-xl bg-white transition duration-300 hover:text-indigo-600 hover:bg-white mb-6 md:mb-0">
               Our Team
               <svg
                 width="32"
@@ -84,14 +84,14 @@ export default function Home() {
           </Link>
         </div>
       </div>
-      <div className="w-full mt-24 flex flex-col items-center">
-        <p className="text-7xl font-bold flex justify-center text-white w-full py-2">
+      <div className="w-full mt-24 sm:mt-12 flex flex-col items-center sm:justify-center sm:text-center">
+        <p className="text-7xl sm:text-5xl font-bold flex justify-center text-white w-full py-2">
           Who We Are?
         </p>
-        <p className="mt-8 w-2/3 text-center tracking-wider opacity-90 leading-6">
+        <p className="mt-8 sm:text-sm sm:px-4 md:px-16 w-full text-center tracking-wider opacity-90 leading-6">
           {desc}
         </p>
-        <div className="w-full flex flex-row tracking-wider text-4xl bg-white font-extrabold items-center justify-evenly mt-16 py-6 text-black ">
+        <div className="w-full md:flex flex-row tracking-wider text-4xl sm:hidden bg-white font-extrabold items-center justify-evenly mt-16 py-6 text-black ">
           <div className="flex items-center justify-center gap-2">
             28.632 Mutlu Müşteri{" "}
             <svg
@@ -108,7 +108,7 @@ export default function Home() {
                 fill="currentColor"
               />
               <path
-                d="M16 15C16 14.4477 15.5523 14 15 14H9C8.44772 14 8 14.4477 8 15V21H6V15C6 13.3431 7.34315 12 9 12H15C16.6569 12 18 13.3431 18 15V21H16V15Z"
+                d="M6.34314 12.7071L7.75735 11.2929L12 15.5356L16.2427 11.2929L17.6569 12.7071L12 18.364L6.34314 12.7071Z"
                 fill="currentColor"
               />
             </svg>
@@ -162,10 +162,10 @@ export default function Home() {
         </div>
       </div>
       <div id="our-team" className="w-full mt-12 flex flex-col items-center">
-        <p className="text-7xl font-bold flex justify-center text-white w-full py-2">
+        <p className="text-7xl sm:text-5xl font-bold flex justify-center text-white w-full py-2">
           Our Team
         </p>
-        <div className="grid grid-cols-4 w-full items-start justify-center gap-4 px-8 mt-12 mb-32 ">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 w-full items-start justify-center gap-4 px-4 md:px-8 mt-12 mb-32">
           {/* Team cards */}
           {teamMembers.map((member) => (
             <div

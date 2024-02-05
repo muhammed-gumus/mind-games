@@ -13,14 +13,14 @@ const Banner: React.FC = () => {
       {/* Metin ve Butonlar */}
       <div className="flex flex-col items-center text-center md:items-start md:text-left md:w-1/2">
         <div className="mb-6">
-          <p className="text-6xl font-bold">{titleText1}</p>
-          <p className="text-8xl font-extrabold tracking-wider">{titleText2}</p>
+          <p className="md:text-6xl font-bold sm:text-4xl">{titleText1}</p>
+          <p className="md:text-8xl font-extrabold tracking-wider sm:text-6xl">{titleText2}</p>
         </div>
 
-        <p className="text-xl opacity-70 mb-6 md:pr-16">{descText}</p>
+        <p className="md:text-xl sm:px-2 md:px-0 opacity-70 mb-6 md:pr-16">{descText}</p>
 
-        <Link href={"/Product/"}>
-          <button className="flex flex-row items-center gap-4  text-black px-10 py-3 rounded-lg text-xl bg-white transition duration-300 hover:text-indigo-600 hover:bg-white mb-6 md:mb-0">
+        <Link href={"/Games"}>
+          <button className="flex flex-row items-center gap-4 text-black px-10 py-3 rounded-lg text-xl bg-white transition duration-300 hover:text-indigo-600 hover:bg-white mb-6 md:mb-0">
             Product
             <svg
               width="32"
@@ -39,7 +39,7 @@ const Banner: React.FC = () => {
       </div>
 
       {/* Özel Görsel (Tablet ve Büyük Ekranlarda) */}
-      <div className="hidden md:block flex items-center justify-center md:w-1/3">
+      <div className=" md:block flex items-center justify-center md:w-1/3 sm:w-2/7">
         <img
           src={customImageUrl}
           alt="Banner"

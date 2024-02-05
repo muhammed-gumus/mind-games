@@ -64,7 +64,7 @@ const Navbar: React.FC = () => {
             />
           </Link>
         </div>
-        <button onClick={toggleMenu} className="ml-auto">
+        <button onClick={toggleMenu} className="ml-auto text-4xl">
           ☰
         </button>
       </div>
@@ -78,10 +78,10 @@ const Navbar: React.FC = () => {
           >
             x
           </button>
-          <ul className="flex gap-2">
+          <ul className="flex gap-4">
             <MenuItem href="/" text="Home" />
             <MenuItem href="/About" text="About" />
-            <MenuItem href="/Product" text="Product" />
+            <MenuItem href="/Games" text="Products" />
             <MenuItem href="/Trainings" text="Trainings" />
             <MenuItem href="/Contact" text="Contact" />
           </ul>
@@ -93,7 +93,7 @@ const Navbar: React.FC = () => {
         <>
           <MenuItem href="/" text="Home" />
           <MenuItem href="/About" text="About" />
-          <MenuItem href="/Product" text="Product" />
+          <MenuItem href="/Games" text="Products" />
           <MenuItem href="/Trainings" text="Trainings" />
           <MenuItem href="/Contact" text="Contact" />
         </>
