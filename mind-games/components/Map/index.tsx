@@ -1,62 +1,36 @@
+import "leaflet/dist/leaflet.css";
+
+import { MapContainer, Marker, Popup, TileLayer } from "react-leaflet";
+import L from "leaflet";
 import React from "react";
-import { GoogleMap, Marker, useJsApiLoader } from "@react-google-maps/api";
 
-interface MapProps {
-  lat: number;
-  lng: number;
-  width: string;
-  height: string;
-}
-
-function MyComponent({ lat, lng, width, height }: MapProps) {
-  const center = {
-    lat: lat,
-    lng: lng,
-  };
-  const containerStyle = {
-    width: width,
-    height: height,
-  };
-
-  const { isLoaded } = useJsApiLoader({
-    id: "google-map-script",
-    googleMapsApiKey: "AIzaSyB--nWp1tPUs48E0zPePM7eLeS4c9Ny9JE",
+const Map: React.FC = () => {
+  const icon = L.icon({
+    iconUrl: "/images/logo-notbg.png",
+    iconSize: [80, 90],
+    shadowUrl: "https://docs.maptiler.com/leaflet/assets/leaf_shadow.png",
+    shadowSize: [50, 64],
+    iconAnchor: [22, 94],
+    shadowAnchor: [4, 62],
+    popupAnchor: [-3, -76],
   });
 
-  const [map, setMap] = React.useState<google.maps.Map | null>(null);
-
-  const onLoad = React.useCallback(
-    function callback(googleMap: google.maps.Map) {
-      const bounds = new window.google.maps.LatLngBounds(center);
-      googleMap.fitBounds(bounds);
-
-      setMap(googleMap);
-    },
-    [center]
+  return (
+    <MapContainer
+      center={[38.0268432, 32.5101583]}
+      zoom={15}
+      style={{ width: "500px", height: "500px" }}
+    >
+      <TileLayer
+        url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+      />
+      <Marker position={[38.0268432, 32.5101583]} icon={icon}>
+        <Popup>
+          Kidoku Akademi
+        </Popup>
+      </Marker>
+    </MapContainer>
   );
+};
 
-  const onUnmount = React.useCallback(function callback() {
-    setMap(null);
-  }, []);
-
-  // 'map' değişkenini okuyorsunuz
-  console.log(map);
-
-  return isLoaded ? (
-    <GoogleMap
-    mapContainerStyle={containerStyle}
-    center={center}
-    zoom={20}
-    onUnmount={onUnmount}
-  >
-    <Marker
-      position={{ lat, lng }}
-      animation={google.maps.Animation.BOUNCE} // Example animation, you can use DROP or BOUNCE
-    />
-  </GoogleMap>
-  ) : (
-    <></>
-  );
-}
-
-export default React.memo(MyComponent);
+export default Map;
