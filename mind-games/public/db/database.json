@@ -1,0 +1,76 @@
+{
+    "products": [
+        {
+            "productId": "cf9f89ee-1518-4c91-a0de-2d2f08517cb4",
+            "productName": "Ürün 2",
+            "productImages": [
+                "../public/images/uploads/c98af98d-db79-4d09-9ac2-625da2afb782_product2.jpeg"
+            ],
+            "productDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "usageInstructions": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        },
+        {
+            "productId": "60620f5e-a079-4d09-a128-51db0dbce91d",
+            "productName": "Ürün 3",
+            "productImages": [
+                "../public/images/uploads/2945ae0e-9248-4794-86dc-688518d42759_product3.jpeg"
+            ],
+            "productDescription": "Lorem ipsum dolor sit amet",
+            "usageInstructions": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        },
+        {
+            "productId": "fcbda70f-1519-4a0c-978e-fccff957e130",
+            "productName": "Ürün 1",
+            "productImages": [
+                "../public/images/uploads/2654b352-56f2-4531-b966-e8fbcbba7d08_product1.jpeg"
+            ],
+            "productDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit,",
+            "usageInstructions": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        },
+        {
+            "productId": "cf9f89ee-1518-4c91-a0de-2d2f08517cb4",
+            "productName": "Ürün 2",
+            "productImages": [
+                "../public/images/uploads/c98af98d-db79-4d09-9ac2-625da2afb782_product2.jpeg"
+            ],
+            "productDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "usageInstructions": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        },
+        {
+            "productId": "60620f5e-a079-4d09-a128-51db0dbce91d",
+            "productName": "Ürün 3",
+            "productImages": [
+                "../public/images/uploads/2945ae0e-9248-4794-86dc-688518d42759_product3.jpeg"
+            ],
+            "productDescription": "Lorem ipsum dolor sit amet",
+            "usageInstructions": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        },
+        {
+            "productId": "fcbda70f-1519-4a0c-978e-fccff957e130",
+            "productName": "Ürün 1",
+            "productImages": [
+                "../public/images/uploads/2654b352-56f2-4531-b966-e8fbcbba7d08_product1.jpeg"
+            ],
+            "productDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit,",
+            "usageInstructions": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        },
+        {
+            "productId": "cf9f89ee-1518-4c91-a0de-2d2f08517cb4",
+            "productName": "Ürün 2",
+            "productImages": [
+                "../public/images/uploads/c98af98d-db79-4d09-9ac2-625da2afb782_product2.jpeg"
+            ],
+            "productDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "usageInstructions": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        },
+        {
+            "productId": "60620f5e-a079-4d09-a128-51db0dbce91d",
+            "productName": "Ürün 3",
+            "productImages": [
+                "../public/images/uploads/2945ae0e-9248-4794-86dc-688518d42759_product3.jpeg"
+            ],
+            "productDescription": "Lorem ipsum dolor sit amet",
+            "usageInstructions": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        }
+    ]
+}
